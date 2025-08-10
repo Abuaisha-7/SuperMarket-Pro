@@ -1,0 +1,33 @@
+{
+  "name": "supermarket-pro-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SuperMarket-Pro application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "supermarket",
+    "inventory",
+    "sales",
+    "express",
+    "api"
+  ],
+  "author": "SuperMarket-Pro Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
+
